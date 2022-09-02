@@ -1,69 +1,188 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<!-- this is a comment for human! -->
-
-<html lang="en">
-
-  <header>
-<title>HARSH'S PORTAL</title>
-<link rel="stylesheet" href="css/master.css">
-<link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-<link rel="shortcut" href="favicon.ico" type="image/x-icon">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="name" content="HARSH'S PORTAL">
-<meta name="robots" content="noindex, nofollow">
-  </header>
+<html lang="en" dir="ltr">
   <head>
-  <style>
-		
-		
-		h1 {
-			color: black;
-			height: 250px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		
-		.card {
-			top: 50%;
-			box-shadow: 0 0 5px 0;
-			background: inherit;
-			backdrop-filter: blur(10px);
-			margin: 100px;
-			text-align: center;
-		}
-	</style>
-</head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Welcome.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/harsh-gautam-b884541b8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwD4Jub8cQGKGnN1NjnynqQ%3D%3D"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/harshgautam14"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-  <body>
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Harsh Kumar Gautam</div>
+       <div class="text-three">Software Engineer</div>
+       <div class="text-four">From India</div>
+     </div>
+     <div class="button">
+       <button><a href="HarshGautam_CV.pdf" width="800" height="500"><font color="Black">About Me</a></font></button>
+     </div>
+   </div>
+ </section>
 
-	<div class="container">
-		<div class="card card-body"
-			style="justify-content: center;">
-			<h1>    <img src="Profile Photu.jpg" width="90" style="border: 5px solid #5555;"> HARSH KUMAR GAUTAM</h1>
-		</div>
-	</div>
-    
-    <img src="Profile Photu.jpg" width="90" style="border: 5px solid #5555;">
-  
-    <h1>HARSH'S PORTAL</h1>
-    <h2>About Me</h2>
-    <p>The name's Harsh Kumar Gautam. I am a tireless seeker of knowledge, occassionally purveyor of wisdom and also, coincidently, a Software Engineer</p>
-    <p></p>
-    <p></p>
-    <h2>Credentials and Portfolio</h2>
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="Profile photu.jpg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Know Me</div>
+	<p>My name is Harsh Kumar Gautam. I am a resident of Jhansi, Uttar Pradesh. I am currently pursuing my B.Tech in Computer Science And Engineering domain from Pranveer Singh Institute Of Technology, Kanpur.</p>
+	<p><I have done my intermediate and high school both from Sun International School, Jhansi./p>
+      <div class="button">
+        <button><a href="HarshGautam_CV.pdf" width="800" height="500"><font color="black">Download CV</a></font></button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
-    <p><a href="resume.html">My Resume</a> |<a href="https://github.com/HARSHGAUTAM"> My GitHub</a></p>
-    <h2>Contact</h2>
-    
-    <p>Email: <a href="mailto:harshgautam3512@gmail.com">harshgautam3512@gmail.com</a></p>
-  </body>
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+	<p>My technical strengths are programming in Python and C. Beside this, I have a keen interest in web development technologies like HTML and CSS.</p>
+	<p>On the other side my core strength lies in soft skills, team-cooperation and team work along with with problem solving skills. Along with this my core strength also lies in communication and soft skills for which I have also recieved 'Elite NPTEL Certication'.</p>
+     <div class="experience">
+         <div class="num"></div>
+         <div class="exp"><br> </div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">Pyhton</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+         <div class="topic">C</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">70%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
 
-  <footer>
-    <hr>
-    <code>Copyright(c) 2020 HARSH GAUTAM</code>
-  </footer>
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Achievements</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Certified Python Programmer(IIT Kanpur)</div>
+       <p><a href="CertifiedPythonIIT.pdf">View Certificate</a></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-certificate"></i>
+       </div>
+       <div class="topic">SQL(Basic)</div>
+       <p><a href="sql_basic.png">View Certificate</a></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Game Development(from Scratch)</div>
+       <p><a href="GamingScratch.pdf">View Certificate</a></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-certificate"></i>
+       </div>
+       <div class="topic">Fund Raising</div>
+       <p><a href="FundRaising.pdf">View Certificate</a></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Crowd Funding</div>
+       <p><a href="CrowdFunding.pdf">View Certificate</a></p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-certificate"></i>
+       </div>
+       <div class="topic">Problem Solving</div>
+       <p><a href="Problem Basics.png">View Certificate</a></p>
+     </div>
+   </div>
+   </div>
+ </section>
 
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      
+      <p>Email:<a href="mailto:harshgautam3512@gmail.com"> harshgautam3512@gmail.com</a></p>
+	<p>Phone:<a href=""> 9198005184</a></p>
+      <div class="button">
+        <button><a href="https://wa.me/+919198005184">Let's Chat</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">HarshKumarGautam</a> | </span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
